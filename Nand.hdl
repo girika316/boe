@@ -1,0 +1,6 @@
+CHIP Nand {
+    IN isy, rllv;
+    OUT xuok;
+
+    BUILTIN Nand;
+}

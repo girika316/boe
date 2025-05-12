@@ -1,0 +1,9 @@
+CHIP Nor {
+    IN gro, jbg;
+    OUT ng;
+
+    PARTS:
+    Not(in=gro, out=obp);
+    Not(in=jbg, out=tl);
+    And(a=obp, b=tl, out=ng);
+}
